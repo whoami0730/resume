@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #caf0f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    height: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 40px;
+}
+
+.container .left-side{
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+
+}
+    /* ----------- profile ----------- */
+.profile-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+.profile-info .img-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-info .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profile-info h2{
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 20px ;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.profile-info h2 span{
+   
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+    /* ----------- contact ----------- */
+
+.contact-info{
+    padding-top: 40px;
+}
+.contact-info .title{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact-info ul{
+    position: relative;
+    list-style: none;
+}
+.contact-info ul li{
+    position: relative;
+    margin: 10px 0px;
+
+}
+
+.contact-info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+
+}
+
+.contact-info ul li .text{
+    color: #fff;
+    font-weight: 300;
+
+}
+
+    /* ----------- soft skill ----------- */
+
+.soft-skill-info{
+    padding-top: 40px;
+}
+.soft-skill-info .title{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.soft-skill-info ul{
+    position: relative;
+   
+}
+
+.soft-skill-info ul li{
+    position: relative;
+    list-style: none;
+    margin-bottom: 15px;
+
+    
+}
+
+.soft-skill-info ul li .text{
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.soft-skill-info ul li .parcent{
+    position: relative;
+    width: 100%;
+    height: 7px;
+    background-color: #081921;
+    display: block; 
+    margin-top: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.soft-skill-info ul li .parcent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #03a9f4;
+    height: 100%;
+}
+
+    /* ----------- language ----------- */
+
+.language-info{
+    padding-top: 40px;
+}
+.language-info .title{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.language-info ul{
+    position: relative;
+   
+}
+
+.language-info ul li{
+    position: relative;
+    list-style: none;
+    margin-bottom: 15px;
+
+    
+}
+
+.language-info ul li .text{
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.language-info ul li .parcent{
+    position: relative;
+    width: 100%;
+    height: 7px;
+    background-color: #081921;
+    display: block; 
+    margin-top: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.language-info ul li .parcent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #03a9f4;
+    height: 100%;
+}
+
+.container .right-side{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+
+    /* ----------- about ----------- */
+
+.about{
+    margin-bottom: 40px;
+}
+
+.about .title{
+    color: #003147;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  
+}
+.about p{
+    padding-top: 10px;
+    color: #333;
+
+}
+
+    /* ----------- education ----------- */
+
+.education-info{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.education-info .title{
+    text-transform: uppercase;
+    color:  #003147 ;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.education-info ul{
+    position: relative;
+    list-style: none;
+}
+
+.education-info ul li{
+    position: relative;
+    margin-bottom: 15px;
+}
+.education-info ul li h5{
+    color: #03a9f4;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.education-info ul li h4{
+    color: #333;
+    font-weight: 600;
+}
+
+.education-info ul li h4 span{
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+    /* ----------- professional skill ----------- */
+
+.about-skills{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.about-skills .title{
+    text-transform: uppercase;
+    color:  #003147 ;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.about-skills .box{
+   position: relative;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 150px 1fr;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.about-skills .box h4{
+    text-transform: uppercase;
+    color:#333;
+    font-weight: 500;
+}
+
+.about-skills .box .parcent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.about-skills .box .parcent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #03a9f4;
+}
+
+    /* ----------- Hobbies ----------- */
+
+.about-hobbies{
+    padding-top: 20px;
+}
+.about-hobbies .title{
+    text-transform: uppercase;
+    color: #003147;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.about-hobbies ul{
+    position: relative;
+    list-style: none;
+}
+.about-hobbies ul li{
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    display: inline-block;
+
+}
+.about-hobbies ul li .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    color: #03a9f4;
+
+}
+
+.about-hobbies ul li .text{
+    color: #333;
+    font-weight: 500;
+
+}
+
+@media (max-width:600px) {
+
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .about-hobbies ul li{
+        display: block;
+    }
+}
